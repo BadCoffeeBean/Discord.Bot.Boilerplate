@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>a56d4f12-9597-4017-aa3a-670608d20240</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Discord.Bot.Boilerplate.Models\Discord.Bot.Boilerplate.Models.csproj" />
+    <ProjectReference Include="..\Discord.Bot.Boilerplate.Services\Discord.Bot.Boilerplate.Services.csproj" />
+  </ItemGroup>
+
+</Project>
